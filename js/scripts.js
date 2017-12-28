@@ -54,7 +54,7 @@ $(function() {
 	    this.$element = createCard();
 
 	    function createCard() {
-	    	var $card = $('<li>').addClass('card');
+	    	var $card = $('<li>').addClass('card clearfix');
 		    var $cardDescription = $('<p>').addClass('card-description').text(self.description);
 		    var $cardDelete = $('<button>').addClass('btn btn-danger').text('x');
 
