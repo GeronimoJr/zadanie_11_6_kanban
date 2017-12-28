@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+body {
+	background-color: rgb(231, 220, 244);
+}
+.board {
+	text-align: center;
+}
+.column-container {
+	display: flex;
+}
+.column {
+	flex-direction: row;
+	text-align: left;
+	flex: 1;
+	padding: 0 5px;
+}
+.column-title {
+	text-align: center;
+	line-height: 100px;
+}
+.column-card-list {
+	list-style-type: none;
+	padding: 0;
+}
+.column > .btn-danger, .btn-success {
+	margin-top: 5px;
+	width: 100%;
+}
+.column > .btn-success {
+	margin-bottom: 30px;
+}
+.card {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: rgb(247, 247, 128);
+	border: 2px solid rgb(247, 187, 9);
+	border-radius: 5px;
+	text-align: right;
+}
+.card .btn-danger {
+	display: inline-block;
+}
+.card-description {
+	float: left;
+	text-align: left;
+	padding: 5px;
+	margin: 0;
+	font-weight: bold;
+}
+h1 {
+	font-family: 'Righteous', cursive;
+	text-transform: uppercase;
+	line-height: 150px;
+	font-size: 50px;
+	text-shadow: 2px 1px rgb(163, 164, 168);
+}
+.btn-primary {
+	margin-bottom: 20px;
+}
+.card-placeholder {
+	border: 1px dashed black;
+	height: 50px;
+}
