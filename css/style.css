@@ -19,6 +19,7 @@ body {
 	line-height: 100px;
 }
 .column-card-list {
+	min-height: 100px;
 	list-style-type: none;
 	padding: 0;
 }
